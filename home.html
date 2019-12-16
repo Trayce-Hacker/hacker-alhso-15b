@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="menu-layout">
+      <div class="menu-item">Home</div>
+      <div class="menu-item">Products & Services</div>
+      <div class="menu-item"><a href="contactus.html">Contact Us</a></div>
+    </div>
+
+    <div class="column-layout">
+      <div class="main-column">
+        <h2>Welcome to the Trayce's Football Outlet</h2>
+        <p>
+          Trayce's football outlet is a small family owned and operated outlet.
+          We supply many brands and equipment, such as cleats, pads, and
+          footballs that will do the job for the game. We also offer many
+          seasonal sales that will for sure be cheaper than the big retail
+          stores.
+        </p>
+      </div>
+
+      <div class="sidebar-2">
+        <img
+          id="logo"
+          src="https://cdn.glitch.com/9aae7bd3-cdb4-44ad-9a48-d87de5af2326%2Fmain%20logo.png?1574359523721"
+        />
+        <div>
+          <ul>
+            <li>Active Clothes</li>
+            <li>Football Equipment</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--     <button id="hidebutton" onclick="hideAds()">Hide Offers</button> -->
+
+    <div id="specialoffers" class="call-outs-container">
+      <div class="call-out">
+        <h4>Special Offer 1</h4>
+        <p>
+          We are having a winter clean out sale, 50% off active clothes and
+          football cleats. Some exclusions may apply.
+        </p>
+        <button>Learn More</button>
+      </div>
+
+      <div class="call-out">
+        <h4>Special Offer 2</h4>
+        <p>
+          Sign Up for our Rewards Program. Each purchase made over $50 gets you
+          20 points, 100 points gets you a $50 gift certifacte for in-store
+          purchases.
+        </p>
+        <button>Learn More</button>
+      </div>
+    </div>
+     <div style="text-align:center;">
+      <button id="hidebutton" onclick="hideAds()">Hide Offers</button>
+    </div>
+
+
+    <script>
+      function hideAds() {
+        var x = document.getElementById("specialoffers");
+        var y = document.getElementById("hidebutton");
+        x.style.display = "none";
+        y.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
